@@ -20,5 +20,9 @@
   "devDependencies": {
     "electron-packager": "^7.3.0",
     "electron-prebuilt": "^1.2.7"
+  },
+  "dependencies": {
+    "electron": "^8.1.1",
+    "get-title-at-url": "^1.1.8"
   }
 }

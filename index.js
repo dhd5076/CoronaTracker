@@ -11,7 +11,7 @@ document.addEventListener('click', (event) => {
   } else if (event.target.classList.contains('js-quit-action')) {
     window.close();
   }
-})
+});
 
 const getStatistics = (callback) => {
   getTitleAtUrl("https://www.worldometers.info/coronavirus/", function(statistics){

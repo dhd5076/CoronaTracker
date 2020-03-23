@@ -1,22 +1,22 @@
 {
-  "name": "weathered",
-  "productName": "Weathered",
-  "version": "1.0.0",
+  "name": "coronatracker",
+  "productName": "CoronaTracker",
+  "version": "0.9.0",
   "main": "main.js",
-  "license": "ISC",
-  "author": "Kevin Sawicki",
+  "license": "MIT",
+  "author": "Dylan Dunn",
   "scripts": {
     "start": "electron .",
     "package": "electron-packager ./ --platform=darwin --arch=x64 --out=out --icon=./icon.icns --overwrite"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kevinsawicki/tray-example.git"
+    "url": "git+https://github.com/dhd5076/CoronaTracker"
   },
   "bugs": {
-    "url": "https://github.com/kevinsawicki/tray-example/issues"
+    "url": "https://github.com/dhd5076/CoronaTracker/issues"
   },
-  "homepage": "https://github.com/kevinsawicki/tray-example#readme",
+  "homepage": "https://github.com/dhd5076/CoronaTracker#readme",
   "devDependencies": {
     "electron-packager": "^7.3.0",
     "electron-prebuilt": "^1.2.7"

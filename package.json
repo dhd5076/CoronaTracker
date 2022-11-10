@@ -22,7 +22,7 @@
     "electron-prebuilt": "^1.2.7"
   },
   "dependencies": {
-    "electron": "^8.1.1",
+    "electron": "^18.3.7",
     "get-title-at-url": "^1.1.8"
   }
 }
